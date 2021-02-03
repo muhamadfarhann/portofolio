@@ -615,6 +615,7 @@ a:hover {
 
 .intro .intro-title {
   color: #fff;
+  text-align: right;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -622,6 +623,7 @@ a:hover {
 .intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
+  text-align: right;
 }
 
 .intro .text-slider-items {
