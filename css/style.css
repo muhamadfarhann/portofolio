@@ -1,17 +1,7 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
-
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #f2f2f2;
+  color: #000;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1,
@@ -20,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #000;
 }
 
 a {
@@ -137,7 +127,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #000;
   font-size: 1.1rem;
 }
 
@@ -154,7 +144,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .line-mf {
@@ -193,10 +183,10 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #FFF;
+  border-radius: 15px;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*------/ Socials /------*/
@@ -326,7 +316,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #333;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -475,7 +465,8 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #FFF;
+  height: 15%;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -674,6 +665,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  border-radius: 20px;
 }
 
 .about-mf .about-img {
@@ -685,7 +677,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #000;
 }
 
 .skill-mf .progress {
@@ -705,7 +697,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -720,7 +712,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #000;
 }
 
 .service-box .ico-circle {
@@ -733,10 +725,11 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: #000;
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 /*======================================
@@ -772,7 +765,8 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #333;
+  border-radius: 15px;
 }
 
 .work-box:hover img {
@@ -783,6 +777,8 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .work-img img {
@@ -791,10 +787,11 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  background-color: #ffffff;
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #000000;
   font-size: .8rem;
 }
 
@@ -818,6 +815,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  color: #000000;
 }
 
 /*======================================
@@ -825,7 +823,7 @@ a:hover {
 ======================================*/
 
 .testimonials .owl-carousel .owl-item img {
-  width: auto;
+  width: 50%;
 }
 
 .testimonial-box {
